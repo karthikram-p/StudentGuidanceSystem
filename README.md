@@ -25,3 +25,19 @@ To set up this project locally, follow these steps:
    ```bash
    git clone https://github.com/karthikram-p/StudentGuidanceSystem.git
    cd StudentGuidanceSystem
+   
+2. **Install the required packages**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set up environment variables**: Create a .env file in the root directory and add necessary keys for Google Generative AI and other services.
+
+4. **Run the application**:
+   ```bash
+   streamlit run app1.py
+
+   
+## Usage
+ 1. Open your web browser and go to http://localhost:8501.
+ 2. Enter your credentials to log in.
+ 3. Explore various sections to receive personalized course recommendations, view educational resources, and get career guidance.
