@@ -115,7 +115,7 @@ if st.session_state.logged_in:
         pdf_recommendations = create_pdf_recommendations(pdfs_directory)
         # Configure API key
         load_dotenv(find_dotenv(), override=True)
-        genai.configure(api_key='AIzaSyD1k5gp6h_aT0UIe4S6UOmOjHf4bYvudmM')
+        genai.configure(api_key='YOUR_API_KEY')
 
 # Load the GenerativeModel for text
         text_model = genai.GenerativeModel('gemini-1.5-pro-latest')
