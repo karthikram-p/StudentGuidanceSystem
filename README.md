@@ -34,7 +34,7 @@ To set up this project locally, follow these steps:
 
 4. **Run the application**:
    ```bash
-   streamlit run app1.py
+   streamlit run app2.py
 
    
 ## Usage
